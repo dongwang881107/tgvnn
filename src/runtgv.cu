@@ -42,8 +42,8 @@ main (int argc, char *argv[])
     // Setup default values
     const char *in_img, *in_mask, *out_img;
     in_img = "../data/pincat.ra";
-    in_mask = "../data/mask.ra";
-    out_img = "../result/recon.ra";
+    in_mask = "../data/pincat_mask.ra";
+    out_img = "../result/pincat_recon.ra";
 
     float alpha = 0.004;
     float beta = 0.5;
